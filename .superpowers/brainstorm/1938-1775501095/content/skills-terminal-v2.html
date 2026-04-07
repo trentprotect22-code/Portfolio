@@ -1,0 +1,127 @@
+<h2>Терминал с вкладками Скиллы / Обо мне</h2>
+<p class="subtitle">Концепция терминала: команды переключают контент</p>
+
+<div class="mockup" style="margin-top:12px;">
+  <div class="mockup-header">Skills &amp; About Me — Терминал</div>
+  <div class="mockup-body" style="background:#0d1117; height:420px; display:flex; flex-direction:column; border-radius:0;">
+    <!-- Terminal header -->
+    <div style="display:flex; align-items:center; gap:6px; padding:8px 12px; background:#161b22; border-bottom:1px solid #30363d;">
+      <div style="width:10px; height:10px; border-radius:50%; background:#ff5f56;"></div>
+      <div style="width:10px; height:10px; border-radius:50%; background:#ffbd2e;"></div>
+      <div style="width:10px; height:10px; border-radius:50%; background:#27ca40;"></div>
+      <div style="font-size:9px; color:#8b949e; margin-left:4px;">~/portfolio &middot; developer-shell</div>
+    </div>
+    <!-- Tab bar -->
+    <div style="display:flex; background:#161b22; border-bottom:1px solid #30363d;">
+      <div style="padding:6px 16px; background:#0d1117; color:#7ee787; font-size:9px; font-family:monospace; font-weight:600; border-bottom:2px solid #7ee787; cursor:pointer;">
+        > $ cat skills.txt
+      </div>
+      <div style="padding:6px 16px; color:#8b949e; font-size:9px; font-family:monospace; border-bottom:2px solid transparent; cursor:pointer;">
+        > $ cat about.txt
+      </div>
+    </div>
+    <!-- Tab content: Skills -->
+    <div style="padding:12px; font-family:monospace; font-size:9px; line-height:1.7; flex:1;">
+      <div style="color:#f0d6ff; margin-bottom:4px;">
+        <span style="color:#58a6ff;">$</span> cat skills.txt
+        <span style="color:#8b949e; margin-left:8px;">— Full-Stack Developer —</span>
+      </div>
+      <div style="margin-top:4px;">
+        <div style="display:grid; grid-template-columns:1fr 1fr; gap:8px 16px;">
+          <div>
+            <span style="color:#7ee787;">Python</span> <span style="color:#484f58;">██████████</span><span style="color:#21262d;">░░</span> <span style="color:#f5a623;">95%</span>
+            <br><span style="color:#8b949e;">  → FastAPI, Django, asyncio</span>
+          </div>
+          <div>
+            <span style="color:#7ee787;">AI/LLM</span> <span style="color:#5865F2;">█████████</span><span style="color:#21262d;">░</span> <span style="color:#f5a623;">90%</span>
+            <br><span style="color:#8b949e;">  → Claude, LangChain, RAG</span>
+          </div>
+          <div>
+            <span style="color:#7ee787;">Frontend</span> <span style="color:#56b6c2;">████████</span><span style="color:#21262d;">░░░░</span> <span style="color:#f5a623;">85%</span>
+            <br><span style="color:#8b949e;">  → React, TS, Tailwind</span>
+          </div>
+          <div>
+            <span style="color:#7ee787;">DBs</span> <span style="color:#484f58;">████████</span><span style="color:#21262d;">░░░░</span> <span style="color:#f5a623;">80%</span>
+            <br><span style="color:#8b949e;">  → PostgreSQL, Redis, Mongo</span>
+          </div>
+          <div>
+            <span style="color:#7ee787;">Node.js</span> <span style="color:#484f58;">████████</span><span style="color:#21262d;">░░░░</span> <span style="color:#f5a623;">80%</span>
+            <br><span style="color:#8b949e;">  → Express, Microservices</span>
+          </div>
+          <div>
+            <span style="color:#7ee787;">DevOps</span> <span style="color:#484f58;">███████</span><span style="color:#21262d;">░░░░░</span> <span style="color:#f5a623;">75%</span>
+            <br><span style="color:#8b949e;">  → Docker, CI/CD, Linux</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="mockup" style="margin-top:16px;">
+  <div class="mockup-header">Вкладка "Обо мне" — тот же терминал, другой контент</div>
+  <div class="mockup-body" style="background:#0d1117; height:380px; display:flex; flex-direction:column;">
+    <!-- Terminal header -->
+    <div style="display:flex; align-items:center; gap:6px; padding:8px 12px; background:#161b22; border-bottom:1px solid #30363d;">
+      <div style="width:10px; height:10px; border-radius:50%; background:#ff5f56;"></div>
+      <div style="width:10px; height:10px; border-radius:50%; background:#ffbd2e;"></div>
+      <div style="width:10px; height:10px; border-radius:50%; background:#27ca40;"></div>
+      <div style="font-size:9px; color:#8b949e; margin-left:4px;">~/portfolio &middot; developer-shell</div>
+    </div>
+    <!-- Tab bar -->
+    <div style="display:flex; background:#161b22; border-bottom:1px solid #30363d;">
+      <div style="padding:6px 16px; color:#8b949e; font-size:9px; font-family:monospace; border-bottom:2px solid transparent; cursor:pointer;">
+        > $ cat skills.txt
+      </div>
+      <div style="padding:6px 16px; background:#0d1117; color:#7ee787; font-size:9px; font-family:monospace; font-weight:600; border-bottom:2px solid #7ee787; cursor:pointer;">
+        > $ cat about.txt
+      </div>
+    </div>
+    <!-- Tab content: About -->
+    <div style="padding:12px; font-family:monospace; font-size:9px; line-height:1.7; flex:1;">
+      <div style="color:#f0d6ff; margin-bottom:6px;">
+        <span style="color:#58a6ff;">$</span> cat about.txt
+        <span style="color:#8b949e; margin-left:8px;">— whoami</span>
+      </div>
+      <div style="color:#c9d1d9; margin-top:6px;">
+        <div style="color:#58a6ff; margin-bottom:6px;">┌────────────────────────────────────────┐</div>
+        <div style="padding-left:4px;">
+          <div>Full-Stack Developer | Python & JS</div>
+          <div style="color:#8b949e; margin-top:4px;">
+            Пишу код, создаю продукты, решаю задачи<br>
+            от идеи до продакшена.
+          </div>
+          <div style="color:#8b949e; margin-top:6px;"># Специализация</div>
+          <div>Бэкенд на Python/FastAPI и Node.js</div>
+          <div>Фронтенд на React + TypeScript</div>
+          <div>Интеграция AI/LLM в проекты</div>
+          <div style="color:#8b949e; margin-top:6px;"># Подход</div>
+          <div>Чистый код + тесты = уверенность</div>
+          <div>Быстрые итерации, видимый результат</div>
+          <div>Прозрачность на каждом этапе</div>
+        </div>
+        <div style="color:#58a6ff; margin-top:6px;">└────────────────────────────────────────┘</div>
+      </div>
+      <div style="margin-top:12px; color:#7ee787;">
+        <span style="color:#58a6ff;">$</span> <span style="border-right:2px solid #7ee787; animation:blink 1s infinite;">&nbsp;</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="options" style="margin-top:12px;">
+  <div class="option" data-choice="yes" onclick="toggleSelect(this)">
+    <div class="letter"></div>
+    <div class="content">
+      <h3>Да, так!</h3>
+      <p>Кнопка — терминал с вкладками, продолжаем</p>
+    </div>
+  </div>
+  <div class="option" data-choice="adjust" onclick="toggleSelect(this)">
+    <div class="letter"></div>
+    <div class="content">
+      <h3>Нужно подправить</h3>
+      <p>Напишу в терминале что изменить</p>
+    </div>
+  </div>
+</div>

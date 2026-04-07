@@ -1,0 +1,603 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e4]:
+      - link "логотип Unisender" [ref=e7] [cursor=pointer]:
+        - /url: /
+        - img "логотип Unisender" [ref=e8]
+      - button "..." [ref=e10] [cursor=pointer]:
+        - generic [ref=e11]: ...
+    - generic [ref=e14]:
+      - link "Конверт" [ref=e16] [cursor=pointer]:
+        - /url: /ru/blog/
+        - img "Конверт" [ref=e17]
+      - button "Раскрыть меню с темами" [ref=e19] [cursor=pointer]:
+        - generic [ref=e20]: Все темы
+        - img [ref=e21]
+      - link "Поиск" [ref=e24] [cursor=pointer]:
+        - /url: /ru/blog/search/
+        - img [ref=e25]
+        - text: Поиск
+  - main [ref=e27]:
+    - navigation "Хлебные крошки" [ref=e30]:
+      - generic [ref=e31]:
+        - link "Главная" [ref=e33] [cursor=pointer]:
+          - /url: /
+          - generic [ref=e34]: Главная
+        - text: /
+        - link "Конверт" [ref=e36] [cursor=pointer]:
+          - /url: https://www.unisender.com/ru/blog/
+          - generic [ref=e37]: Конверт
+        - text: /
+        - generic [ref=e39]: "Где разместить сайт: 8 бесплатных хостингов"
+    - generic [ref=e41]:
+      - 'heading "Где разместить сайт: 8 бесплатных хостингов" [level=1] [ref=e42]'
+      - paragraph [ref=e43]: Плюсы и минусы бесплатных хостингов + подборка платформ
+      - generic [ref=e44]:
+        - generic [ref=e46]: "Обновлено: 02.03.2026"
+        - generic [ref=e47]:
+          - generic [ref=e48]: 116K
+          - link "Подборки" [ref=e49] [cursor=pointer]:
+            - /url: https://www.unisender.com/ru/blog/podborki/
+    - generic [ref=e51]:
+      - navigation "Навигация по разделам статьи" [ref=e53]:
+        - generic [ref=e54]: В этой статье
+        - list [ref=e55]:
+          - listitem [ref=e56]:
+            - link "Минусы бесплатного хостинга" [ref=e57] [cursor=pointer]:
+              - /url: "#anchor-1"
+          - listitem [ref=e58]:
+            - link "SpaceWeb" [ref=e59] [cursor=pointer]:
+              - /url: "#anchor-2"
+          - listitem [ref=e60]:
+            - link "Ucoz" [ref=e61] [cursor=pointer]:
+              - /url: "#anchor-3"
+          - listitem [ref=e62]:
+            - link "Freehosting.com" [ref=e63] [cursor=pointer]:
+              - /url: "#anchor-4"
+          - listitem [ref=e64]:
+            - link "Sprinthost" [ref=e65] [cursor=pointer]:
+              - /url: "#anchor-5"
+          - listitem [ref=e66]:
+            - link "Infinityfree" [ref=e67] [cursor=pointer]:
+              - /url: "#anchor-6"
+          - listitem [ref=e68]:
+            - link "Hostiman" [ref=e69] [cursor=pointer]:
+              - /url: "#anchor-7"
+          - listitem [ref=e70]:
+            - link "Beget" [ref=e71] [cursor=pointer]:
+              - /url: "#anchor-8"
+          - listitem [ref=e72]:
+            - link "Byet" [ref=e73] [cursor=pointer]:
+              - /url: "#anchor-9"
+          - listitem [ref=e74]:
+            - link "Сравнительная таблица" [ref=e75] [cursor=pointer]:
+              - /url: "#anchor-10"
+      - img "Подборка бесплатных хостингов для сайта" [ref=e77]
+      - generic [ref=e78]:
+        - list "Список тем" [ref=e80]:
+          - listitem [ref=e81]:
+            - link "Безопасность" [ref=e82] [cursor=pointer]:
+              - /url: https://www.unisender.com/ru/blog/tag/bezopasnost/
+          - listitem [ref=e83]:
+            - link "Сайты" [ref=e84] [cursor=pointer]:
+              - /url: https://www.unisender.com/ru/blog/tag/sajty/
+        - link "33 слова о маркетинге" [ref=e86] [cursor=pointer]:
+          - /url: https://t.me/+p2FfoefsT1tjNzA6?plc=blog&object=button&offer=subscribe&type=static&name=govori
+      - generic [ref=e87]:
+        - generic [ref=e88]:
+          - generic [ref=e89]: Автор
+          - img "Михаил Шумовский" [ref=e90]
+          - link "Михаил Шумовский" [ref=e91] [cursor=pointer]:
+            - /url: https://www.unisender.com/ru/blog/author/m-shumovskiy/
+          - generic [ref=e92]: Редактор журнала «Конверт»
+        - generic [ref=e93]:
+          - generic [ref=e94]: Обновила статью
+          - img "Настя Богусловская" [ref=e95]
+          - link "Настя Богусловская" [ref=e96] [cursor=pointer]:
+            - /url: https://www.unisender.com/ru/blog/author/n-boguslavska/
+          - generic [ref=e97]: Редактор журнала «Конверт»
+      - generic [ref=e98]:
+        - generic [ref=e99]:
+          - generic [ref=e103]:
+            - generic [ref=e105]:
+              - paragraph [ref=e106]: Чтобы сайт постоянно работал и был доступен для пользователей, его нужно где-то разместить. Обычно сайты хранят на хостингах — удалённых круглосуточных компьютерах.
+              - paragraph [ref=e107]:
+                - text: "Хранить сайты удалённо — удобно: не нужно следить за состоянием компьютеров, этим занимается хостинг-провайдер. С другой стороны, за такие услуги придётся платить ежемесячно. Если вы хотите"
+                - link "создать сайт" [ref=e108] [cursor=pointer]:
+                  - /url: https://www.unisender.com/ru/blog/sozdat-sayt/
+                - text: ", но не уверены, что в будущем он вам понадобится, — попробуйте разместить сайт на бесплатном хостинге."
+              - paragraph [ref=e109]: Я собрал 8 бесплатных сервисов и рассказываю, какие у них ограничения, возможности, и для каких проектов такие хостинги подойдут.
+            - generic [ref=e111]:
+              - generic [ref=e112]:
+                - generic [ref=e113]:
+                  - generic [ref=e114]:
+                    - generic "Информация о рекламодателе" [ref=e115]: "Реклама. ООО «Юнисендер СМАРТ», ИНН 9731091240, erid: 2VSb5yCvZRT"
+                    - button "Юридическая информация о рекламе" [ref=e116] [cursor=pointer]:
+                      - generic [ref=e117]: Реклама
+                      - img [ref=e118]
+                  - generic [ref=e121]: Генерируйте письма с ИИ
+                  - paragraph [ref=e123]: Больше не надо тратить время на дизайн и тексты писем. ИИ‑ассистент всё сделает сам.
+                  - link "Попробовать" [ref=e124] [cursor=pointer]:
+                    - /url: https://app.unisender.com/ru/v5/spa/registration/step/1?plc=blog&object=banner&offer=registration&type=rotate&name=email_s_ii&erid=2VSb5yCvZRT
+                - img "Генерируйте письма с ИИ" [ref=e126]
+              - heading "Минусы бесплатного хостинга" [level=2] [ref=e127]
+              - paragraph [ref=e128]: Работают за счёт рекламы. Если хостинг платный, то компания зарабатывает с аренды серверов. В бесплатных за аренду не платят, поэтому некоторые провайдеры зарабатывают размещением рекламы. Рекламы может быть много, в каждом углу сайта. Это отталкивает пользователей и формирует у них негативный опыт по отношению к ресурсу. Да и кто знает, какую рекламу увидит человек?
+              - paragraph [ref=e129]:
+                - text: Работают на доменах третьего уровня.
+                - link "Домен" [ref=e130] [cursor=pointer]:
+                  - /url: https://www.unisender.com/ru/glossary/chto-takoe-domen/
+                - text: — это имя сайта. Если вы делаете серьёзный проект — придётся покупать домен отдельно. Он будет называться доменом второго уровня. Например, unisender.com.
+              - paragraph [ref=e131]: "Домен третьего уровня выглядит так: blog.site.ru. Они хуже индексируются поисковыми системами и хуже запоминаются пользователям. Бесплатные хостинги обычно на них и работают."
+              - paragraph [ref=e132]: Работают медленнее. Вычислительные мощности бесплатных серверов хуже, поэтому запросы пользователей обрабатываются дольше. А при больших нагрузках серверы могут упасть, и пользователи не попадут на ресурс.
+              - paragraph [ref=e133]: "Работают с маленькими сайтами. Для больших корпоративных ресурсов или онлайн-магазинов услуги бесплатных хостингов не подойдут — не хватит места для хранения файлов. Вот в чём дело: обычно провайдеры дают около 500 МБ – 2 ГБ дискового пространства. Для маленького ресурса этого достаточно, а вот для большого, с множеством картинок и видео, места не хватит."
+              - paragraph [ref=e134]: Работают без технической поддержки. Если сайт сломается или пропадёт с сервера — компания ничем не поможет.
+            - generic [ref=e138]:
+              - paragraph [ref=e139]: Если хостинг нужен для интернет-магазина
+              - paragraph [ref=e140]: "Для интернет-магазинов лучше выбрать платный хостинг: надежная инфраструктура, защита данных помогают избегать рисков, например, потери заказов при простое сайта, утечки данных покупателей."
+              - paragraph [ref=e141]:
+                - text: Некоторые CMS позволяют подключить хостинг отдельно. В
+                - link "inSales" [ref=e142] [cursor=pointer]:
+                  - /url: https://www.insales.ru/page/site-im?aff=dbe27fd55
+                - text: "хостинг уже включен в тариф: безлимитное место, трафик и SSL-сертификат доступны сразу после регистрации."
+              - paragraph [ref=e143]: "Платформа подходит для создания интернет-магазинов:"
+              - list [ref=e144]:
+                - listitem [level=1] [ref=e145]: есть визуальный редактор, шаблоны, инструменты для приёма платежей;
+                - listitem [level=1] [ref=e146]: синхронизация товаров и заказов с маркетплейсами (Wildberries, Ozon, Авито);
+                - listitem [level=1] [ref=e147]: интеграция с соцсетями (ВКонтакте, Одноклассники);
+              - paragraph [ref=e148]: Встроенная аналитика показывает маржинальность, прогноз дефицита товаров и отчеты по продажам. Для работы с несколькими складами есть функция мультискладов — с учетом региональности и резервированием остатков.
+              - paragraph [ref=e149]:
+                - text: Техподдержка работает круглосуточно, данные автоматически резервируются. Тарифы начинаются от 2295 ₽/месяц при оплате за год.
+                - link "Протестировать все функции" [ref=e150] [cursor=pointer]:
+                  - /url: https://www.insales.ru/signup?aff=dbe27fd55
+                - text: можно в течение 7 дней.
+          - generic [ref=e154]:
+            - generic [ref=e156]:
+              - heading "SpaceWeb" [level=2] [ref=e157]
+              - paragraph [ref=e158]:
+                - text: "Ссылка на сайт:"
+                - link "https://sweb.ru/hosting/free/" [ref=e159] [cursor=pointer]:
+                  - /url: https://sweb.ru/hosting/free/
+              - paragraph [ref=e160]: "Характеристики и совместимость:"
+              - list [ref=e161]:
+                - listitem [ref=e162]: 1 ГБ NVME, 1 база данных, 1 FTP-аккаунт, нагрузка до 15 CP.
+                - listitem [ref=e163]: Поддержка PHP 8.4, 8.3, 8.2, 8.1, 8, 7.х, MySQL 8, 5.7, Perl, Python, Ruby.
+            - link "Что такое хостинг и как его выбрать" [ref=e166] [cursor=pointer]:
+              - /url: https://www.unisender.com/ru/blog/kak-vybrat-hosting/
+            - generic [ref=e168]:
+              - paragraph [ref=e169]:
+                - generic [ref=e170]:
+                  - text: "Spaceweb — российский хостинг-провайдер, который предлагает целый комплекс услуг: универсальный виртуальный хостинг для любых проектов, аренду выделенного сервера (VPS/VDS), регистрацию доменов, подключение SSL, доступ к"
+                  - link "конструктору сайтов" [ref=e171] [cursor=pointer]:
+                    - /url: https://www.unisender.com/ru/blog/konstruktory-sajtov/
+                  - text: . А также бесплатный хостинг, который подойдет для небольших проектов и знакомства с платформой.
+              - paragraph [ref=e172]: "Преимущества:"
+              - list [ref=e173]:
+                - listitem [level=1] [ref=e174]: бессрочный хостинг;
+                - listitem [level=1] [ref=e175]: полное отсутствие рекламы;
+                - listitem [level=1] [ref=e176]: современный сервер с NVMe дисками;
+                - listitem [level=1] [ref=e177]: бесплатный домен .swtest.ru и SSL-сертификат;
+                - listitem [level=1] [ref=e178]: бесплатная проверка антивирусом и защита от DDoS;
+                - listitem [level=1] [ref=e179]: бесплатный антивирус.
+              - paragraph [ref=e180]: Но на бесплатном тарифе есть ограничение нагрузки в 15 CP в сутки, нет техподдержки и почты.
+            - generic [ref=e182]:
+              - link "SpaceWeb" [ref=e183] [cursor=pointer]:
+                - /url: https://www.unisender.com/ru/blog/wp-content/uploads-webpc/uploads/2024/02/spejsveb.png.webp
+                - img "SpaceWeb" [ref=e184]
+              - generic [ref=e185]: Больше о функциях и дополнительных услугах
+            - generic [ref=e187]:
+              - generic [ref=e188]:
+                - article [ref=e189]:
+                  - generic [ref=e190]:
+                    - link "Новости" [ref=e191] [cursor=pointer]:
+                      - /url: https://www.unisender.com/ru/blog/news/
+                    - text: 06.04.2026
+                  - link "Авторы ВКонтакте заработали 100 млн рублей на продажах через шопсы" [ref=e192] [cursor=pointer]:
+                    - /url: https://www.unisender.com/ru/blog/news/avtory-vkontakte-zarabotali-100-mln-rublej-na-prodazhah-cherez-shopsy/
+                - article [ref=e193]:
+                  - generic [ref=e194]:
+                    - link "Новости" [ref=e195] [cursor=pointer]:
+                      - /url: https://www.unisender.com/ru/blog/news/
+                    - text: 09:48
+                  - 'link "Google усиливает монетизацию: ссылки на товары появятся в ИИ-ответах" [ref=e196] [cursor=pointer]':
+                    - /url: https://www.unisender.com/ru/blog/news/google-usilivaet-monetizacziyu-ssylki-na-tovary-poyavyatsya-v-ii-otvetah/
+                - article [ref=e197]:
+                  - generic [ref=e198]:
+                    - link "Кейсы" [ref=e199] [cursor=pointer]:
+                      - /url: https://www.unisender.com/ru/blog/kejsy/
+                    - text: 17.03.2026
+                  - 'link "Заказы с каждого письма: как сработал апгрейд рассылок «Компании Заявка»" [ref=e200] [cursor=pointer]':
+                    - /url: https://www.unisender.com/ru/blog/kejs-kompanii-zayavka/
+                - article [ref=e201]:
+                  - generic [ref=e202]:
+                    - link "Честно" [ref=e203] [cursor=pointer]:
+                      - /url: https://www.unisender.com/ru/blog/mneniya/
+                    - text: 02.04.2026
+                  - link "ИИ похож на неопытного стажёра — иногда просто бесит" [ref=e204] [cursor=pointer]:
+                    - /url: https://www.unisender.com/ru/blog/ii-pohozh-na-neopytnogo-stazhyora/
+                - article [ref=e205]:
+                  - generic [ref=e206]:
+                    - link "Разборы" [ref=e207] [cursor=pointer]:
+                      - /url: https://www.unisender.com/ru/blog/razbory/
+                    - text: 03.04.2026
+                  - link "Маркетинг 2026. Какие инструменты и каналы доступны — и как их лучше использовать" [ref=e208] [cursor=pointer]:
+                    - /url: https://www.unisender.com/ru/blog/kakie-instrumenty-marketinga-i-kanaly-dostupny-pryamo-sejchas/
+              - heading "Ucoz" [level=2] [ref=e209]
+              - paragraph [ref=e210]:
+                - text: "Ссылка на сайт:"
+                - link "https://www.ucoz.ru/" [ref=e211] [cursor=pointer]:
+                  - /url: https://www.ucoz.ru/
+              - paragraph [ref=e212]: "Характеристики и совместимость:"
+              - list [ref=e213]:
+                - listitem [ref=e214]: 400 МБ места на диске, неограниченная пропускная способность.
+                - listitem [ref=e215]: Бесплатный домен.
+                - listitem [ref=e216]: CSS, HTML, JS.
+              - paragraph [ref=e217]:
+                - text: "Ucoz — не просто конструктор сайтов: он позволяет"
+                - link "создавать лендинги" [ref=e218] [cursor=pointer]:
+                  - /url: https://www.unisender.com/ru/blog/kak-sdelat-landing/
+                - text: ", онлайн-магазины и другие ресурсы, а потом помогает разместить их на собственных серверах."
+              - paragraph [ref=e219]: "В бесплатной версии есть ограничения:"
+              - list [ref=e220]:
+                - listitem [level=1] [ref=e221]: нельзя хранить сайт больше 400 МБ;
+                - listitem [level=1] [ref=e222]: нельзя создать онлайн-магазин;
+                - listitem [level=1] [ref=e223]: нельзя использовать разные модули;
+                - listitem [level=1] [ref=e224]: нет чата с поддержкой;
+                - listitem [level=1] [ref=e225]: нельзя убрать рекламу в панели управления и подключить PHP.
+              - paragraph [ref=e226]:
+                - generic [ref=e227]:
+                  - text: Для регистрации нужно указать email, либо использовать
+                  - link "аккаунт во ВКонтакте" [ref=e228] [cursor=pointer]:
+                    - /url: https://www.unisender.com/ru/blog/layfhaki-dlya-lichnogo-akkaunta-vkontakte/
+                  - text: ", Яндексе, Одноклассниках, Google."
+              - paragraph [ref=e229]: Основной минус ― сайт удалят, если в течение 40 дней у него не будет ни одного посетителя.
+          - generic [ref=e235]:
+            - link "Создание сайта в Ucoz" [ref=e236] [cursor=pointer]:
+              - /url: https://www.unisender.com/ru/blog/wp-content/uploads-webpc/uploads/2024/02/yukoz.png.webp
+              - img "Создание сайта в Ucoz" [ref=e237]
+            - generic [ref=e238]: Панели управления у Ucoz нет, потому что он настраивается автоматически
+          - generic [ref=e242]:
+            - generic [ref=e244]:
+              - heading "Freehosting.com" [level=2] [ref=e245]
+              - paragraph [ref=e246]:
+                - text: "Ссылка на сайт:"
+                - link "https://www.freehosting.com/" [ref=e247] [cursor=pointer]:
+                  - /url: https://www.freehosting.com/
+              - paragraph [ref=e248]: "Характеристики и совместимость:"
+              - list [ref=e249]:
+                - listitem [ref=e250]: 1 ГБ дискового пространства, неограниченная пропускная способность.
+                - listitem [ref=e251]: 1 размещённый веб-сайт, 1 учётная запись электронной почты, 1 база данных MySQL.
+                - listitem [ref=e252]: Работает с Linux, Apache, PHP 7, phpMyAdmin, MySQL.
+            - 'link "Авторское право в интернете: как защитить и чем грозит нарушение" [ref=e255] [cursor=pointer]':
+              - /url: https://www.unisender.com/ru/blog/zashchita-avtorskogo-prava-v-internete/
+          - generic [ref=e261]:
+            - paragraph [ref=e262]: "Хостинг с бесплатным тарифом, но со своим списком нескончаемых ограничений. Весь перечислять не буду, но вы не должны нарушать как минимум эти пункты:"
+            - list [ref=e263]:
+              - listitem [level=1] [ref=e264]: нельзя распространять мошеннические материалы;
+              - listitem [level=1] [ref=e265]: нельзя публиковать плагиат;
+              - listitem [level=1] [ref=e266]: нельзя использовать хостинг как хранилище или p2p-сеть;
+              - listitem [level=1] [ref=e267]: нельзя предлагать HTTP-загрузки с сайта, кроме случаев, когда файлы напрямую связаны с тематикой ресурса;
+              - listitem [level=1] [ref=e268]: нельзя дискредитировать других людей, оскорблять, угрожать и как-то ещё нарушать закон.
+            - paragraph [ref=e269]:
+              - generic [ref=e270]:
+                - text: Для регистрации нужно указать
+                - link "email" [ref=e271] [cursor=pointer]:
+                  - /url: https://www.unisender.com/ru/blog/kak-vybrat-adres-ehlektronnoj-pochty/
+                - text: и номер телефона. Из минусов ― сайт работает только с иностранных IP.
+          - generic [ref=e277]:
+            - link "Freehosting.com" [ref=e278] [cursor=pointer]:
+              - /url: https://www.unisender.com/ru/blog/wp-content/uploads-webpc/uploads/2024/02/frihosting.kom.png.webp
+              - img "Freehosting.com" [ref=e279]
+            - generic [ref=e280]: Все бесплатные возможности сервиса
+          - generic [ref=e284]:
+            - generic [ref=e286]:
+              - heading "Sprinthost" [level=2] [ref=e287]
+              - paragraph [ref=e288]:
+                - text: "Ссылка на сайт:"
+                - link "https://free.sprinthost.ru/register/social" [ref=e289] [cursor=pointer]:
+                  - /url: https://free.sprinthost.ru/register/social
+              - paragraph [ref=e290]: "Характеристики и совместимость:"
+              - list [ref=e291]:
+                - listitem [ref=e292]: 1 ГБ для свободного места, без рекламы и скрытых платежей.
+                - listitem [ref=e293]: Поддерживает MySQL, PhpMyAdmin, PHP 5.2 – 8.2.
+            - generic [ref=e295]:
+              - paragraph [ref=e296]: "Простой и надёжный хостинг для размещения небольших ресурсов. Единственное условие: контент должен соответствовать законам Российской Федерации."
+              - paragraph [ref=e297]:
+                - text: Ещё один нюанс — отсутствие поддержки. Если возникнут какие-то вопросы, переходите на платный тариф и спрашивайте. Серьёзно, они сами так говорят.
+                - generic [ref=e298]:
+                  - text: Для регистрации нужен аккаунт Google или
+                  - link "ВКонтакте" [ref=e299] [cursor=pointer]:
+                    - /url: https://www.unisender.com/ru/blog/layfhaki-dlya-lichnogo-akkaunta-vkontakte/
+                  - text: .
+          - generic [ref=e305]:
+            - link "Sprinthost" [ref=e306] [cursor=pointer]:
+              - /url: https://www.unisender.com/ru/blog/wp-content/uploads-webpc/uploads/2024/02/springhost.png.webp
+              - img "Sprinthost" [ref=e307]
+            - generic [ref=e308]: Панель управления в Sprinthost
+          - generic [ref=e314]:
+            - heading "Infinityfree" [level=2] [ref=e315]
+            - paragraph [ref=e316]:
+              - text: "Ссылка на сайт:"
+              - link "https://www.infinityfree.com" [ref=e317] [cursor=pointer]:
+                - /url: https://www.infinityfree.com/
+            - paragraph [ref=e318]: "Характеристики и совместимость:"
+            - list [ref=e319]:
+              - listitem [ref=e320]: 5 ГБ свободного места, без рекламы и скрытых платежей.
+              - listitem [ref=e321]: Поддерживает MySQL, phpMyAdmin, PHP 5.2 – 8.3.
+            - paragraph [ref=e322]: Хостинг подойдет для небольших проектов, обучения и знакомства работы с хостингами. Он полностью бесплатный, без пробных периодов. Для регистрации нужен только адрес электронной почты. Площадка также предоставляет бесплатный поддомен для сайта.
+            - paragraph [ref=e323]: "Интерфейс у Infinityfree не самый удобный: много рекламы, нет обучения по работе с портфелем. Также на бесплатном тарифе неудобная панель управления."
+          - link "Infinityfree" [ref=e330] [cursor=pointer]:
+            - /url: https://www.unisender.com/ru/blog/wp-content/uploads-webpc/uploads/2024/02/infinitifri.png.webp
+            - img "Infinityfree" [ref=e331]
+          - generic [ref=e335]:
+            - generic [ref=e337]:
+              - heading "Hostiman" [level=2] [ref=e338]
+              - paragraph [ref=e339]:
+                - text: "Ссылка на сайт:"
+                - link "https://hostiman.ru/free-hosting" [ref=e340] [cursor=pointer]:
+                  - /url: https://hostiman.ru/free-hosting
+              - paragraph [ref=e341]: "Характеристики и совместимость:"
+              - list [ref=e342]:
+                - listitem [ref=e343]: Два домена.
+                - listitem [ref=e344]: SSD 1 ГБ, пропускная способность 512 МБ.
+                - listitem [ref=e345]: Автоматический бэкап.
+                - listitem [ref=e346]: Поддерживает PHP 5.2 – 8.3, FTP, MySQL, Cron.
+            - 'link "Великий и ужасный DDoS: что это, зачем нужно, кому грозит и как защищаться" [ref=e349] [cursor=pointer]':
+              - /url: https://www.unisender.com/ru/blog/chto-takoe-ddos-komu-nuzhno-kak-zashchititsya/
+            - generic [ref=e351]:
+              - paragraph [ref=e352]: "HostiMan — российский хостинг-провайдер, который предлагает целый комплекс услуг: универсальный виртуальный хостинг для любых проектов, аренду сервера (VPS/VDS), регистрацию доменов в зонах РФ и ЕС, аренду выделенных серверов по всему миру. А также бесплатный хостинг, который подойдет для небольших проектов, 2 сайтов и знакомства с платформой."
+              - paragraph [ref=e353]: "Возможности:"
+              - list [ref=e354]:
+                - listitem [ref=e355]: бессрочный тариф бесплатного хостинга;
+                - listitem [ref=e356]: отсутствие рекламы;
+                - listitem [ref=e357]: бесплатный домен и SSL-сертификат;
+                - listitem [ref=e358]: защита от DDoS-атак и автоматический BackUp;
+                - listitem [ref=e359]:
+                  - text: установка 237 CMS и скриптов (
+                  - link "WordPress" [ref=e360] [cursor=pointer]:
+                    - /url: https://www.unisender.com/ru/blog/plaginy-wordpress/
+                  - text: ", Joomla, OpenCart) в 1 клик."
+              - paragraph [ref=e361]:
+                - text: Для регистрации нужно фотографировать паспорт — не лучший выбор для любителей анонимности. О том, как добавить на хостинг бесплатный домен, есть
+                - link "инструкция в базе знаний сервиса" [ref=e362] [cursor=pointer]:
+                  - /url: https://my.hostiman.ru/knowledge/7/345-kak-dobavit-domen-h1nru
+                - text: .
+          - generic [ref=e368]:
+            - link "Стоимость доменов в сервисе Hostiman" [ref=e369] [cursor=pointer]:
+              - /url: https://www.unisender.com/ru/blog/wp-content/uploads-webpc/uploads/2024/02/hostmen.png.webp
+              - img "Стоимость доменов в сервисе Hostiman" [ref=e370]
+            - generic [ref=e371]: Возможности бесплатного и платного тарифов
+          - generic [ref=e377]:
+            - heading "Beget" [level=2] [ref=e378]
+            - paragraph [ref=e379]:
+              - text: "Ссылка на сайт:"
+              - link "https://beget.com/ru/hosting/free" [ref=e380] [cursor=pointer]:
+                - /url: https://beget.com/ru/hosting/free
+            - paragraph [ref=e381]: "Характеристики и совместимость:"
+            - list [ref=e382]:
+              - listitem [ref=e383]: 1 ГБ SSD диск.
+              - listitem [ref=e384]: Один сайт, один FTP и БД, неограниченное число доменов.
+              - listitem [ref=e385]: Справляется с нагрузкой 10 CP, можно загрузить до 25 000 файлов.
+              - listitem [ref=e386]: Совместим с PHP 5.2 – 8.3, Python, Perl 5, MySQL, phpMyAdmin.
+            - paragraph [ref=e387]: Надёжный провайдер с удобной панелью управления. Хостинг подойдет для начинающих веб-мастеров и небольших проектов.
+            - paragraph [ref=e388]: "Плюсы:"
+            - list [ref=e389]:
+              - listitem [ref=e390]: нет рекламы;
+              - listitem [ref=e391]: большой объем SSD диска ― 1 ГБ;
+              - listitem [ref=e392]: единая и интуитивно понятная панель управления с файловым менеджером;
+              - listitem [ref=e393]: автоматическое резервное копирование данных.
+            - paragraph [ref=e394]:
+              - text: На бесплатном тарифе есть ограничение нагрузки в 10 CP в сутки и 25 000 файлов, а также не оказывается техническая поддержка. Зато можно подключить неограниченное количество доменов и работать с
+              - link "разными CMS" [ref=e395] [cursor=pointer]:
+                - /url: https://www.unisender.com/ru/blog/cms/
+              - text: .
+            - paragraph [ref=e396]: Для регистрации нужно указать мобильный номер и электронную почту.
+          - generic [ref=e402]:
+            - link "Beget" [ref=e403] [cursor=pointer]:
+              - /url: https://www.unisender.com/ru/blog/wp-content/uploads-webpc/uploads/2024/02/beget.png.webp
+              - img "Beget" [ref=e404]
+            - generic [ref=e405]: Бесплатный хостинг от Beget без рекламы, но с навязчивой рассылкой
+          - generic [ref=e409]:
+            - generic [ref=e411]:
+              - heading "Byet" [level=2] [ref=e412]
+              - paragraph [ref=e413]:
+                - text: "Ссылка на сайт:"
+                - link "https://byet.host/free-hosting" [ref=e414] [cursor=pointer]:
+                  - /url: https://byet.host/free-hosting
+              - paragraph [ref=e415]: "Характеристики и совместимость:"
+              - list [ref=e416]:
+                - listitem [ref=e417]: 5 ГБ места на диске.
+                - listitem [ref=e418]: Припаркованные домены, поддомены, кластерные серверы, без рекламы.
+                - listitem [ref=e419]: Поддерживает FTP, PHP 8.3, MySQL, автоматический установщик скриптов, CMS, phpMyAdmin.
+              - paragraph [ref=e420]:
+                - text: "Зарубежный провайдер с дизайном из 2008 года, зато с условиями из 2026: безлимит по размеру диска, количеству баз данных и трафику. Подойдет для начинающих веб-мастеров,"
+                - link "личных блогов" [ref=e421] [cursor=pointer]:
+                  - /url: https://www.unisender.com/ru/blog/luchshie-platformy-dlya-sozdaniya-bloga/
+                - text: ", интернет-магазинов и сложных веб-приложений."
+              - paragraph [ref=e422]: "Преимущества:"
+              - list [ref=e423]:
+                - listitem [ref=e424]: отсутствие рекламы и скрытых платежей ― хостинг полностью бесплатный;
+                - listitem [ref=e425]: 5 ГБ дискового пространства и неограниченный ежемесячный трафик;
+                - listitem [ref=e426]: бесплатный SSL-сертификат и круглосуточная техническая поддержка;
+              - paragraph [ref=e427]: Для регистрации нужно указать поддомен и email-адрес.
+            - generic [ref=e429]:
+              - link "Byet" [ref=e430] [cursor=pointer]:
+                - /url: https://www.unisender.com/ru/blog/wp-content/uploads-webpc/uploads/2024/02/baet.png.webp
+                - img "Byet" [ref=e431]
+              - generic [ref=e432]: Возможности хостинга
+          - generic [ref=e438]:
+            - heading "Сравнительная таблица" [level=2] [ref=e439]
+            - paragraph [ref=e440]: Бесплатный хостинг подходит маленьким ресурсам и тем, кто только хочет попробовать разместить сайт в интернете.
+            - paragraph [ref=e441]: Если вы создаёте коммерческий проект — покупайте подписку на хостинг. Это гарантия того, что сайт будет работать и обслуживать посетителей.
+            - paragraph [ref=e442]: "Если всё же делаете выбор в пользу бесплатного хостинга, то рекомендую один из этой восьмёрки:"
+            - table [ref=e445]:
+              - rowgroup [ref=e446]:
+                - row "Свободное место на диске Пропускная способность Реклама Бесплатный домен Бесплатный SSL-сертификат" [ref=e447]:
+                  - cell [ref=e448]
+                  - cell "Свободное место на диске" [ref=e449]
+                  - cell "Пропускная способность" [ref=e450]
+                  - cell "Реклама" [ref=e451]
+                  - cell "Бесплатный домен" [ref=e452]
+                  - cell "Бесплатный SSL-сертификат" [ref=e453]
+                - row "SpaceWeb 1 ГБ ∞ ❌ ✅ ✅" [ref=e454]:
+                  - cell "SpaceWeb" [ref=e455]
+                  - cell "1 ГБ" [ref=e456]
+                  - cell "∞" [ref=e457]
+                  - cell "❌" [ref=e458]
+                  - cell "✅" [ref=e459]
+                  - cell "✅" [ref=e460]
+                - row "Ucoz 400 МБ ∞ ✅ ✅ ❌" [ref=e461]:
+                  - cell "Ucoz" [ref=e462]
+                  - cell "400 МБ" [ref=e463]
+                  - cell "∞" [ref=e464]
+                  - cell "✅" [ref=e465]
+                  - cell "✅" [ref=e466]
+                  - cell "❌" [ref=e467]
+                - row "Freehosting 1 ГБ ∞ ❌ ❌ $29" [ref=e468]:
+                  - cell "Freehosting" [ref=e469]
+                  - cell "1 ГБ" [ref=e470]
+                  - cell "∞" [ref=e471]
+                  - cell "❌" [ref=e472]
+                  - cell "❌" [ref=e473]
+                  - cell "$29" [ref=e474]
+                - row "Sprinthost 1 ГБ ? ❌ ❌ ✅" [ref=e475]:
+                  - cell "Sprinthost" [ref=e476]
+                  - cell "1 ГБ" [ref=e477]
+                  - cell "?" [ref=e478]
+                  - cell "❌" [ref=e479]
+                  - cell "❌" [ref=e480]
+                  - cell "✅" [ref=e481]
+                - row "Infinityfree 5 ГБ ∞ ❌ ✅ ✅" [ref=e482]:
+                  - cell "Infinityfree" [ref=e483]
+                  - cell "5 ГБ" [ref=e484]
+                  - cell "∞" [ref=e485]
+                  - cell "❌" [ref=e486]
+                  - cell "✅" [ref=e487]
+                  - cell "✅" [ref=e488]
+                - row "Hostiman 1 ГБ 512 МБ ❌ ✅ ✅" [ref=e489]:
+                  - cell "Hostiman" [ref=e490]
+                  - cell "1 ГБ" [ref=e491]
+                  - cell "512 МБ" [ref=e492]
+                  - cell "❌" [ref=e493]
+                  - cell "✅" [ref=e494]
+                  - cell "✅" [ref=e495]
+                - row "Beget 1 ГБ ∞ ❌ ❌ ✅" [ref=e496]:
+                  - cell "Beget" [ref=e497]
+                  - cell "1 ГБ" [ref=e498]
+                  - cell "∞" [ref=e499]
+                  - cell "❌" [ref=e500]
+                  - cell "❌" [ref=e501]
+                  - cell "✅" [ref=e502]
+                - row "Byet 5 ГБ ? ❌ ❌ ✅" [ref=e503]:
+                  - cell "Byet" [ref=e504]
+                  - cell "5 ГБ" [ref=e505]
+                  - cell "?" [ref=e506]
+                  - cell "❌" [ref=e507]
+                  - cell "❌" [ref=e508]
+                  - cell "✅" [ref=e509]
+        - generic [ref=e510]:
+          - generic [ref=e511]: Поделиться
+          - generic [ref=e512]:
+            - link "Поделиться статьёй в соцсети ВКонтакте" [ref=e513] [cursor=pointer]:
+              - /url: "#"
+              - text: ВКонтакте
+            - text: ","
+            - link "Поделиться статьёй в Телеграм" [ref=e514] [cursor=pointer]:
+              - /url: "#"
+              - text: Telegram
+    - generic [ref=e516]:
+      - heading "Свежие статьи" [level=2] [ref=e517]
+      - generic [ref=e518]:
+        - article [ref=e519]:
+          - link "Как переслать большой файл" [ref=e520] [cursor=pointer]:
+            - /url: https://www.unisender.com/ru/blog/kak-pereslat-fayl-bolshogo-razmera/
+            - img "Как переслать большой файл" [ref=e521]
+          - generic [ref=e522]:
+            - link "Доки" [ref=e523] [cursor=pointer]:
+              - /url: https://www.unisender.com/ru/blog/tag/doki/
+            - text: 07.04.2026 193K
+          - 'link "Как просто и безопасно переслать большой файл: обзор способов и сервисов" [ref=e524] [cursor=pointer]':
+            - /url: https://www.unisender.com/ru/blog/kak-pereslat-fayl-bolshogo-razmera/
+        - article [ref=e525]:
+          - link "что такое ретаргетинг" [ref=e526] [cursor=pointer]:
+            - /url: https://www.unisender.com/ru/blog/kak-nastroit-retargeting-po-email/
+            - img "что такое ретаргетинг" [ref=e527]
+          - generic [ref=e528]:
+            - link "Email" [ref=e529] [cursor=pointer]:
+              - /url: https://www.unisender.com/ru/blog/tag/email/
+            - text: 06.04.2026 1
+          - link "Как запустить ретаргетинг по email в Яндексе, ВКонтакте и Одноклассниках" [ref=e530] [cursor=pointer]:
+            - /url: https://www.unisender.com/ru/blog/kak-nastroit-retargeting-po-email/
+        - article [ref=e531]:
+          - link "не выполнил поставленных задач" [ref=e532] [cursor=pointer]:
+            - /url: https://www.unisender.com/ru/blog/sryv-dedlajnov-v-komande-chto-s-etim-delat/
+            - img "не выполнил поставленных задач" [ref=e533]
+          - generic [ref=e534]:
+            - link "HR" [ref=e535] [cursor=pointer]:
+              - /url: https://www.unisender.com/ru/blog/tag/hr/
+            - text: 06.04.2026 1
+          - 'link "Срыв сроков в команде: почему происходит, что с этим делать и как предупредить" [ref=e536] [cursor=pointer]':
+            - /url: https://www.unisender.com/ru/blog/sryv-dedlajnov-v-komande-chto-s-etim-delat/
+        - article [ref=e537]:
+          - link "Как использовать парсер email и можно ли" [ref=e538] [cursor=pointer]:
+            - /url: https://www.unisender.com/ru/blog/parser-sborshchik-email-adresov/
+            - img "Как использовать парсер email и можно ли" [ref=e539]
+          - generic [ref=e540]:
+            - link "Email" [ref=e541] [cursor=pointer]:
+              - /url: https://www.unisender.com/ru/blog/tag/email/
+            - text: 06.04.2026 8K
+          - link "Как работает парсер email-адресов и когда его можно использовать" [ref=e542] [cursor=pointer]:
+            - /url: https://www.unisender.com/ru/blog/parser-sborshchik-email-adresov/
+    - generic [ref=e545]:
+      - heading "«Честно» — рассылка о том, что волнует и бесит" [level=2] [ref=e546]
+      - paragraph [ref=e547]: Искренние письма о работе и жизни, эксклюзивные кейсы и интервью с экспертами диджитала.
+      - generic [ref=e548]:
+        - textbox "Ваш email" [ref=e549]
+        - generic [ref=e550] [cursor=pointer]:
+          - generic [ref=e551]:
+            - text: Оставляя свой email, вы принимаете
+            - link "Политику обработки персональных данных" [ref=e552]:
+              - /url: https://offer.unisender.com/privacy-notice/
+          - checkbox "Оставляя свой email, вы принимаете Политику обработки персональных данных" [ref=e553]
+        - generic: Наш юрист будет ругаться, если вы не примете :(
+        - button "Подписаться" [disabled] [ref=e555]
+  - contentinfo [ref=e556]:
+    - button "Прокрутить наверх" [ref=e557] [cursor=pointer]:
+      - img
+    - generic [ref=e558]:
+      - generic [ref=e559]:
+        - img "Unisender" [ref=e561]
+        - generic [ref=e562]:
+          - generic [ref=e564] [cursor=pointer]: Unisender
+          - generic [ref=e566] [cursor=pointer]: Информация
+          - generic [ref=e568] [cursor=pointer]: Компания
+          - generic [ref=e570] [cursor=pointer]: Инструменты
+          - generic [ref=e572] [cursor=pointer]: Журнал
+          - generic [ref=e574] [cursor=pointer]: Техподдержка
+      - generic [ref=e575]:
+        - link "VK" [ref=e576] [cursor=pointer]:
+          - /url: https://vk.com/unisender
+          - text: ВК
+        - link "Telegram" [ref=e577] [cursor=pointer]:
+          - /url: https://t.me/unisender
+          - text: TELEGRAM
+        - link "Youtube" [ref=e578] [cursor=pointer]:
+          - /url: https://www.youtube.com/user/TheUnisender
+          - text: YOUTUBE
+        - link "Реклама и сотрудничество" [ref=e579] [cursor=pointer]:
+          - /url: https://www.unisender.com/wp-content/uploads/unisender-mediakit.pdf
+          - text: Реклама
+      - generic [ref=e581]: © 2008 — 2026 Unisender
+  - generic [ref=e582] [cursor=pointer]:
+    - link "⚡️ Первое медиа про ИИ ⚡️" [ref=e583]:
+      - /url: https://neiro.unisender.com/?plc=blog&object=button&offer=read-n-media&type=static
+    - button "Скрыть это предложение" [ref=e584]:
+      - img [ref=e585]
+  - generic [ref=e590]:
+    - generic [ref=e591]:
+      - paragraph [ref=e592]:
+        - text: Мы используем
+        - link "куки" [ref=e593] [cursor=pointer]:
+          - /url: /ru/cookies-policy/
+        - text: ", чтобы сайт хорошо работал."
+      - paragraph [ref=e594]: Продолжая им пользоваться, вы соглашаетесь на обработку ваших куки‑файлов.
+    - button "Принято!" [ref=e595] [cursor=pointer]

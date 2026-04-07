@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Портфолио — Android-разработчик</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav id="navbar">
+    <div class="nav-inner">
+      <a href="#hero" class="nav-logo">~ $ mepmaks</a>
+      <div class="nav-links">
+        <a href="#skills">Навыки</a>
+        <a href="#contact">Контакты</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="hero">
+    <canvas id="codeCanvas"></canvas>
+    <canvas id="pixelCanvas"></canvas>
+    <div class="hero-overlay"></div>
+    <div class="scanlines"></div>
+    <div class="noise"></div>
+    <div class="hero-divider"></div>
+
+    <div class="hero-content">
+      <div class="hero-text">
+        <span class="terminal-line-prefix">$ whoami</span>
+        <h1 class="hero-title">Android-разработчик</h1>
+        <p class="hero-subtitle">Kotlin · Jetpack Compose · Node.js · Python</p>
+        <a href="#skills" class="cta-button">
+          <span class="cta-text">Смотреть навыки</span>
+          <span class="cta-arrow"></span>
+        </a>
+      </div>
+      <div class="hero-photo">
+        <div class="photo-outer">
+          <div class="photo-inner">
+            <img src="Photo.jpg" alt="photo" />
+          </div>
+        </div>
+        <span class="photo-name">mepmaks</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills & About Section -->
+  <section id="skills">
+    <div class="section-header fade-in">
+      <span class="section-prompt">$ cat skills.txt</span>
+    </div>
+
+    <div class="terminal-container fade-in">
+      <div class="terminal">
+        <div class="terminal-tabs">
+          <button class="terminal-tab active" data-tab="skills">skills.txt</button>
+          <button class="terminal-tab" data-tab="about">about.txt</button>
+        </div>
+        <div class="terminal-body">
+          <!-- Skills Tab -->
+          <div class="tab-content active" id="tab-skills">
+            <div class="skills-grid">
+              <div class="skill-item">
+                <div class="skill-name" data-color="#7ee787">Kotlin + Compose</div>
+                <div class="skill-bar"><span class="skill-fill" data-width="90%"></span></div>
+                <div class="skill-percent" data-color="#7ee787">90%</div>
+                <div class="skill-detail">Jetpack Compose, ML Kit, Material 3</div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-name" data-color="#56b6c2">Frontend</div>
+                <div class="skill-bar"><span class="skill-fill" data-width="75%"></span></div>
+                <div class="skill-percent" data-color="#56b6c2">75%</div>
+                <div class="skill-detail">HTML, CSS, JavaScript</div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-name" data-color="#7ee787">Node.js</div>
+                <div class="skill-bar"><span class="skill-fill" data-width="80%"></span></div>
+                <div class="skill-percent" data-color="#7ee787">80%</div>
+                <div class="skill-detail">Express, REST API, SQLite</div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-name" data-color="#7c3aed">Python</div>
+                <div class="skill-bar"><span class="skill-fill" data-width="70%"></span></div>
+                <div class="skill-percent" data-color="#7c3aed">70%</div>
+                <div class="skill-detail">Парсинг, данные, автоматизация</div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-name" data-color="#4299e1">Базы данных</div>
+                <div class="skill-bar"><span class="skill-fill" data-width="65%"></span></div>
+                <div class="skill-percent" data-color="#4299e1">65%</div>
+                <div class="skill-detail">SQLite, Room DB</div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-name" data-color="#fbbf24">Инструменты</div>
+                <div class="skill-bar"><span class="skill-fill" data-width="85%"></span></div>
+                <div class="skill-percent" data-color="#fbbf24">85%</div>
+                <div class="skill-detail">Git, Gradle, Android Studio, Figma</div>
+              </div>
+            </div>
+          </div>
+          <!-- About Tab -->
+          <div class="tab-content" id="tab-about">
+            <div class="about-text">
+              <h3>Android-разработчик</h3>
+              <p class="about-subtitle">Kotlin · Jetpack Compose · Node.js · Python</p>
+              <br>
+              <p>Разрабатываю Android-приложения на Kotlin + Jetpack Compose,
+              самостоятельно проектирую REST API на Node.js + Express
+              и работаю с данными через Python. Связываю клиент, бэкенд
+              и данные в одну цепочку.</p>
+              <br>
+              <h4>Исследование перед кодом</h4>
+              <p>Изучаю API, структуру данных и ограничения до начала разработки</p>
+              <br>
+              <h4>Чистая архитектура</h4>
+              <p>Разделяю клиент и сервер, использую репозитории</p>
+              <br>
+              <h4>Автоматизация</h4>
+              <p>Парсинг, тестирование, импорт данных — рутина должна работать сама</p>
+              <br>
+              <h4>Ориентация на продукт</h4>
+              <p>Продукт должен решать задачу пользователя, а не просто работать</p>
+              <br>
+              <p class="about-goal">Цели: развиваюсь в сторону создания полноценных продуктов —
+              от мобильных приложений до серверной инфраструктуры и автоматизации.</p>
+              <br>
+              <span class="cursor-blink">█</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <div class="section-header fade-in">
+      <span class="section-prompt">$ send --to me</span>
+    </div>
+    <div class="terminal-container fade-in">
+      <div class="terminal terminal-contact">
+        <div class="terminal-header-line">
+          <span class="terminal-dot dot-red"></span>
+          <span class="terminal-dot dot-yellow"></span>
+          <span class="terminal-dot dot-green"></span>
+          <span class="terminal-title">contact.sh</span>
+        </div>
+        <div class="terminal-body">
+          <div class="prompt-line">
+            <span class="prompt-prefix">$</span> echo "Свяжитесь со мной"
+          </div>
+          <p class="prompt-line">Контактная информация:</p>
+          <br>
+          <div class="prompt-line">
+            <span class="prompt-prefix">▸</span> Telegram:
+            <a href="https://t.me/MepMaks" target="_blank" rel="noopener" class="contact-link telegram-link">@MepMaks</a>
+          </div>
+          <div class="prompt-line">
+            <span class="prompt-prefix">▸</span> E-mail:
+            <a href="mailto:trentprotect10@gmail.com" class="contact-link email-link">trentprotect10@gmail.com</a>
+          </div>
+          <br>
+          <p class="prompt-comment"># Отвечаю в течение 24 часов</p>
+          <span class="cursor-blink">█</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2026 — разработчик, который делает.</p>
+  </footer>
+
+  <!-- Pixel animation behind skills & contact sections -->
+  <canvas id="sectionPixels"></canvas>
+
+  <script src="js/hero-animation.js"></script>
+  <script src="js/scroll-animations.js"></script>
+  <script src="js/terminal-ui.js"></script>
+  <script src="js/section-pixels.js"></script>
+</body>
+</html>
